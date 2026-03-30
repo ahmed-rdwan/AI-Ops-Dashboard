@@ -17,7 +17,7 @@ import google.generativeai as genai
 # 0. إعدادات الاتصال & API
 # ==========================================
 # 🔑 هام: ضع مفتاح Gemini API هنا
-GOOGLE_API_KEY = "AIzaSyCJW2MbVag9kMaMhwpdZwPAqjyxgVSi5pc" # 🔴 استبدل هذا بمفتاحك الحقيقي
+GOOGLE_API_KEY = "AIzaSyAE6iQAebVhe8n01yiE0Mz0GooZA0PCUUE" # 🔴 استبدل هذا بمفتاحك الحقيقي
 try:
     genai.configure(api_key=GOOGLE_API_KEY)
 except: pass
